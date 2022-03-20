@@ -1,27 +1,12 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    # Location of package manifests
     directory: "/"
-    registries:
-      - npm-github
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-      timezone: "Asia/Kolkata"
-    allow:
-      # Allow both direct and indirect updates for all packages
-      # Note: Also affects security updates
-      - dependency-type: "all"
-    ignore:
-      # Ignore all patch level updates. Security updates are unaffected by this setting.
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
-    commit-message:
-      prefix: "npm-dependabot"
+      interval: "daily"
     open-pull-requests-limit: 30
-    # use the default behavior and rebase open pull requests when changes are detected
-    rebase-strategy: "auto"
-    # increase version in package.json & package-lock.json
-    versioning-strategy: "increase"
+    commit-message:
+      prefix: (build)-deps
+      include: scope
+    pull-request-branch-name:
+      separator: '-'
