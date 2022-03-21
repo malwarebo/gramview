@@ -1,3 +1,4 @@
+
 version: 2
 updates:
   - package-ecosystem: "npm"
@@ -6,7 +7,7 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 30
     commit-message:
-      prefix: (build)-deps
+      prefix: (build)
       include: scope
     pull-request-branch-name:
       separator: '-'
