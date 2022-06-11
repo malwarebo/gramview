@@ -1,2 +1,8 @@
-# instadp_viewer
-View Instagram profile picture of any user.
+# Instadp Viewer
+
+This is a cli and web tool to check a profile of any Instagram user.
+
+Input:
+```
+$ instadp --url <user-profile-link>
+```
