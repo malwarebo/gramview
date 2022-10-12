@@ -1,6 +1,6 @@
-# Instadp Viewer
+# Instadown
 
-This is a cli and web tool to check a profile of any Instagram user.
+This is a cli and web tool to check a profile picture of any Instagram user.
 
 Input:
 ```
