@@ -1,8 +1,12 @@
 # Instadown
 
-This is a cli and web tool to check a profile picture of any Instagram user.
+Download any instagram profile picture
 
-Input:
+## How to run
+
 ```
-$ instadp --url <user-profile-link>
+$ cd client
+$ npm start
 ```
+
+and the app will be running in your browser on port 3000 by default.
