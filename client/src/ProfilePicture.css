@@ -1,0 +1,11 @@
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-picture img {
+  max-height: 80vh;
+  max-width: 80vw;
+}
